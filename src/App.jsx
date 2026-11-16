@@ -464,7 +464,7 @@ function App() {
                     </a>
 
                     <a
-                      href="https://github.com/VivekSankpal"
+                      href="https://github.com/VivekSankpal-Dev/vivek-portfolio"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
