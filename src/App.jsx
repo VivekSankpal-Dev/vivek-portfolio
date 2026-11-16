@@ -295,30 +295,20 @@ function App() {
 
                 {[
                   {
-                    id: "ssc",
-                    title: "10th — SSC",
-                    institution: "Shri Bhaveshwari Highschool Madyal",
-                    period: "2020",
-                    status: "Completed",
-                    score: 82.6,
-                    scoreLabel: "82.60%",
-                    scale: 100,
-                    description: "Secondary School Certificate (SSC).",
-                  },
-                  {
-                    id: "hsc",
-                    title: "12th — HSC",
-                    institution: "Gadhinglaj Junior College, Gadhinglaj",
-                    period: "2021 – 2022",
-                    status: "Completed",
-                    score: 66.67,
-                    scoreLabel: "66.67%",
-                    scale: 100,
+                    id: "MCA",
+                    title: "Master of Computer Applications (MCA)",
+                    institution:
+                      "Sant Gajanan Maharaj College of Engineering, Mahagaon",
+                    period: "2025 – 2027",
+                    status: "Currently Pursuing",
+                    score: null,
+                    scoreLabel: "Currently Pursuing",
+                    scale: null,
                     description:
-                      "Higher Secondary Certificate — Maharashtra State Board.",
+                      "Affiliated with Shivaji University, Kolhapur.",
                   },
                   {
-                    id: "bsc",
+                    id: "Bsc",
                     title: "B.Sc. Computer Science",
                     institution:
                       "Shivraj College of Arts, Commerce and D. S. Kadam Science, Gadhinglaj",
@@ -330,17 +320,27 @@ function App() {
                     description: "Undergraduate degree in Computer Science.",
                   },
                   {
-                    id: "mca",
-                    title: "Master of Computer Applications (MCA)",
-                    institution:
-                      "Sant Gajanan Maharaj College of Engineering, Mahagaon",
-                    period: "2025 – 2027",
-                    status: "Currently Pursuing",
-                    score: null,
-                    scoreLabel: "Currently Pursuing",
-                    scale: null,
+                    id: "HSC",
+                    title: "12th — HSC",
+                    institution: "Gadhinglaj Junior College, Gadhinglaj",
+                    period: "2021 – 2022",
+                    status: "Completed",
+                    score: 66.67,
+                    scoreLabel: "66.67%",
+                    scale: 100,
                     description:
-                      "Affiliated with Shivaji University, Kolhapur.",
+                      "Higher Secondary Certificate — Maharashtra State Board.",
+                  },
+                  {
+                    id: "SSC",
+                    title: "10th — SSC",
+                    institution: "Shri Bhaveshwari Highschool Madyal",
+                    period: "2020",
+                    status: "Completed",
+                    score: 82.6,
+                    scoreLabel: "82.60%",
+                    scale: 100,
+                    description: "Secondary School Certificate (SSC).",
                   },
                 ].map((item) => (
                   <details className="education-card" key={item.id}>
