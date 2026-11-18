@@ -14,7 +14,7 @@ This portfolio highlights my technical skills, academic background, and developm
 
 ## 🌐 Live Website
 
-[**Visit My Portfolio**](https://viveksankpal.vercel.app)
+[**Visit My Portfolio**](https://vivek-portfolio-01.vercel.app/)
 
 ## 📸 Portfolio Preview
 
